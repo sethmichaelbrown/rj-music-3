@@ -1,5 +1,6 @@
-html {
-
+html, body {
+  height: 100vh;
+  width: 100vw;
 }
 
 .splash-page{
@@ -54,8 +55,8 @@ a.nav-li:hover{
   color: white;
 }
 
-.section1{
-  height: 100vh;
+.section{
+  height: 50vh;
   width: 100vw;
 }
 
@@ -69,7 +70,52 @@ i.material-icons:hover{
 }
 
 .hide{
-  display: none
+  display: none;
+}
+
+/* About */
+.img1{
+  height: 45vh;
+  width: 45vw;
+  background-image: url("images/adi-goldstein-767040-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* Play */
+.img2{
+  height: 45vh;
+  width: 45vw;
+  background-image: url("images/4k-wallpaper-adult-black-and-white-1489126.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* Compose */
+.img3{
+  height: 45vh;
+  width: 45vw;
+  background-image: url("images/john-hult-93012-unsplash.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* Write */
+.img4{
+  height: 45vh;
+  width: 45vw;
+  background-image: url("images/adi-goldstein-767040-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* Perform */
+.img5{
+  height: 45vh;
+  width: 45vw;
+  background-image: url("images/beard-blur-boy-167382.jpeg");
+  background-position: center;
+  background-size: cover;
 }
 
 @media only screen and (max-width: 455px){
@@ -92,6 +138,10 @@ i.material-icons:hover{
   .splash-page{
     height: 100vh;
     width: 100vw;
+  }
+
+  .img1, .img2, .img3, .img4, .img5{
+    display: none;
   }
 
 }
