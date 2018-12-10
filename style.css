@@ -1,0 +1,74 @@
+html {
+
+}
+
+.splash-page{
+  background: url(images/bobby-hendry-304875-unsplash.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  height: 100vh;
+  width: 100vw;
+}
+
+nav{
+  grid-column: 1/ 4;
+  grid-row: 1 / 2;
+  padding: 0px 20px;
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+a.brand-logo{
+  font-family: 'Courgette', cursive;
+  font-size: 48px;
+  padding: 0.5%;
+}
+
+a.nav-li{
+  font-size: 25px;
+  font-family: 'Bree Serif', serif;
+}
+
+a.nav-li:hover{
+  background-color: #4FC3F7;
+  color: white;
+}
+
+.user-view{
+  background-image: url(images/derek-story-607169-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.subheader{
+  grid-column: 1 / 4;
+  grid-row: 3 / 4;
+  padding: 0px 20px;
+  margin-top: 3%;
+}
+
+.subheader-text{
+  color: white;
+}
+
+.section1{
+  height: 100vh;
+  width: 100vw;
+}
+
+i.material-icons{
+  background-color: #4FC3F7;
+}
+
+i.material-icons:hover{
+  background-color: white;
+  color: #4FC3F7;
+}
+
+.hide{
+  display: none
+}
