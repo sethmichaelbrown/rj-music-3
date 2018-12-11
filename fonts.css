@@ -1,7 +1,7 @@
 h1{
   font-family: 'Courgette', cursive;
   border-bottom: solid;
-  border-color: #4FC3F7;
+  border-color: #ff8f00;
 }
 
 h3{
@@ -15,5 +15,5 @@ h5{
 
 p, ol{
   font-size: 18px;
-  color: #4A6977;
+  color: #402400;
 }

@@ -1,12 +1,3 @@
-@media only screen and (min-width: 455px) {
-  .splash-page{
-    background: url(images/bobby-hendry-304875-unsplash.jpeg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-}
 .splash-page{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -18,8 +9,8 @@
 nav{
   grid-column: 1/ 4;
   grid-row: 1 / 2;
-  padding: 0px 20px;
-  background-color: rgba(79, 195, 247, .75);
+  padding: 0% 2%;
+  background-color: rgba(239, 108, 0, 1);
 }
 
 a.brand-logo{
@@ -34,7 +25,7 @@ a.nav-li{
 
 a.nav-li:hover{
   background-color: white;
-  color: #4FC3F7;
+  color: #ef6c00;
 }
 
 .user-view{
@@ -43,11 +34,23 @@ a.nav-li:hover{
   background-repeat: no-repeat;
 }
 
+.side-li:hover{
+  color: #ef6c00;
+}
+
 .subheader{
-  grid-column: 1 / 4;
+  grid-column: 1 / 3;
   grid-row: 3 / 4;
   padding: 0px 20px;
   margin-top: 3%;
+}
+
+.contact{
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+  margin: auto;
+  margin-right: 5%;
+  margin-top: 25%;
 }
 
 .subheader-text{
@@ -57,15 +60,16 @@ a.nav-li:hover{
 .section{
   height: 50vh;
   width: 100vw;
+  color: #ef6c00;
 }
 
 i.material-icons{
-  background-color: #4FC3F7;
+  background-color: #ef6c00;
 }
 
 i.material-icons:hover{
   background-color: white;
-  color: #4FC3F7;
+  color: #ef6c00;
 }
 
 .hide{
@@ -115,6 +119,16 @@ i.material-icons:hover{
   background-image: url("images/beard-blur-boy-167382.jpeg");
   background-position: center;
   background-size: cover;
+}
+
+@media only screen and (min-width: 455px) {
+  .splash-page{
+    background: url(images/bobby-hendry-304875-unsplash.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 }
 
 @media only screen and (max-width: 455px){
